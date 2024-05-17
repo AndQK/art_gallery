@@ -1,0 +1,72 @@
+[
+  {
+    "prompt": "Impressionism: A serene landscape at sunset, with dappled sunlight filtering through trees",
+    "genre": "Impressionism",
+    "website": "https://pixlr.com/fi/image-generator/",
+    "alt": "A serene landscape at sunset, with dappled sunlight filtering through trees",
+    "src": "./images/impressionism.png"
+  },
+  {
+    "prompt": "A cat running in the forest towards the lake (picasso style)",
+    "genre": "Cubism",
+    "website": "https://deepai.org/machine-learning-model/text2img",
+    "alt": "A cat running in the forest towards the lake (picasso style)",
+    "src": "./images/pablo_cat.jpg"
+  },
+  {
+    "prompt": "Surrealism: An abstract scene where objects defy gravity and float in a dreamlike space.",
+    "genre": "Surrealism",
+    "website": "https://canva.com/",
+    "alt": "An abstract scene where objects defy gravity and float in a dreamlike space.",
+    "src": "./images/an_abstract_scene_defy_gravity.png"
+  },
+  {
+    "prompt": "Abstract Expressionism: Bold and vibrant colors swirling together in a dynamic and chaotic composition.",
+    "genre": "Abstract Expressionism",
+    "website": "https://canva.com/",
+    "alt": "Bold and vibrant colors swirling together in a dynamic and chaotic composition.",
+    "src": "./images/abstract_expressionism.png"
+  },
+  {
+    "prompt": "Cubism: A fragmented view of a cityscape or still life, with geometric shapes overlapping and intersecting.",
+    "genre": "Cubism",
+    "website": "httos://canva.com/",
+    "alt": "A fragmented view of a cityscape, with geometric shapes overlapping and intersecting.",
+    "src": "./images/cubism.png"
+  },
+  {
+    "prompt": "Pop Art: A vibrant collage of everyday objects and celebrity faces, reminiscent of Andy Warhol's style.",
+    "genre": "Pop Art",
+    "website": "https://designer.microsoft.com/image-creator/",
+    "alt": "A vibrant collage of everyday objects and celebrity faces, reminiscent of Andy Warhol's style.",
+    "src": "./images/pop_art.jpeg"
+  },
+  {
+    "prompt": "Pointillism: A landscape composed of thousands of tiny dots of paint color, blending together to form a cohesive painting.",
+    "genre": "Pointillism",
+    "website": "https://designer.microsoft.com/image-creator/",
+    "alt": "A landscape composed of thousands of tiny dots of paint color, blending together to form a cohesive painting.",
+    "src": "./images/pointillism.jpeg"
+  },
+  {
+    "prompt": "Romanticism: A dramatic landscape featuring rugged mountains, stormy skies, and a sense of sublime grandeur.",
+    "genre": "Romanticism",
+    "website": "https://www.fotor.com/images/create/",
+    "alt": "A dramatic landscape featuring rugged mountains, stormy skies, and a sense of sublime grandeur.",
+    "src": "./images/romanticism.jpg"
+  },
+  {
+    "prompt": "Post-Impressionism: A scene with exaggerated colors and distorted perspectives, inspired by artists like Vincent van Gogh.",
+    "genre": "Post-Impressionism",
+    "website": "https://www.fotor.com/images/create",
+    "alt": "A scene with exaggerated colors and distorted perspectives, inspired by artists like Vincent van Gogh.",
+    "src": "./images/post-impressionism.jpg"
+  },
+  {
+    "prompt": "Create a painting that embodies the essence of neon abstract minimalism, where vibrant colors pulsate against a stark background, forming geometric shapes.",
+    "genre": "Neon abstract minimalism",
+    "website": "https://midjourney.co/generator",
+    "alt": "Neon abstract minimalism painting: Vibrant geometric shapes pulsating with vibrant colors against a stark background.",
+    "src": "./images/neon_abstract_minimalism.jpg"
+  }
+]
