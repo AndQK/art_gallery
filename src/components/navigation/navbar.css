@@ -1,0 +1,147 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: #333;
+  padding: 10px;
+  color: #ffffff;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  box-sizing: border-box;
+  font-size: 16px;
+  z-index: 1000; /* Set a higher z-index for the navbar so that it always appear on top of elements */
+  align-items: center;
+}
+
+nav div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none; /* Remove default list styling */
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  display: inline-block; /* Make li elements appear on the same line */
+  margin-right: 25px; /* Adjust spacing between links as needed */
+  transition: transform 0.3s ease-in-out;
+}
+nav ul li:hover {
+  transform: scale(1.2);
+}
+.nav-link {
+  color: #ffffff; /* Set link color */
+  text-decoration: none; /* Remove default underline */
+  transition: color 0.3s ease-in-out;
+}
+
+/*Add hover effect for better user experience */
+.nav-link:hover {
+  text-decoration: underline; /* Add underline on hover */
+  color: #ff4500;
+}
+
+/* Part of the nav*/
+.name {
+  text-decoration: none; /* Remove default underline */
+  color: #ffffff; /* Set link color */
+  transition: filter 0.3s ease-in-out;
+  margin-left: 10px;
+}
+.name-part {
+  color: #ff4500;
+}
+.name:hover {
+  filter: hue-rotate(45deg);
+  cursor: pointer;
+}
+.links-desktop {
+  margin-left: auto;
+}
+.links-mobile {
+  height: 24px;
+  margin-left: auto;
+  cursor: pointer;
+  background: transparent;
+  border-style: none;
+  color: #ffffff;
+}
+.links-mobile:hover {
+  color: #ff4500;
+}
+
+@media screen and (min-width: 681px) {
+  .links-desktop {
+    display: flex;
+  }
+  .links-mobile {
+    display: none;
+  }
+  .work-desc-wrapper {
+    max-width: 700px;
+  }
+  #Introduction p {
+    max-width: 700px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .links-desktop {
+    display: none;
+  }
+  .links-mobile {
+    display: flex;
+  }
+}
+
+.mobile-menu-list {
+  max-height: 0px;
+  list-style: none;
+  margin: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  border-top: 2px solid #ff4500;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  box-sizing: border-box;
+  flex-direction: column;
+  opacity: 90%;
+  overflow: hidden;
+  -moz-transition: max-height 0.5s ease;
+  -ms-transition: max-height 0.5s ease;
+  -o-transition: max-height 0.5s ease;
+  -webkit-transition: max-height 0.5s ease;
+  transition: max-height 0.5s ease;
+}
+.mobile-menu-list ul {
+  flex-direction: column;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  gap: 20px;
+  opacity: 1;
+}
+.mobile-menu-list li {
+  text-align: center;
+  width: 100%;
+}
+
+.mobile-menu-list a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.mobile-menu-list.open {
+  max-height: 200px;
+  -moz-transition: max-height 0.5s ease;
+  -ms-transition: max-height 0.5s ease;
+  -o-transition: max-height 0.5s ease;
+  -webkit-transition: max-height 0.5s ease;
+  transition: max-height 0.5s ease;
+}

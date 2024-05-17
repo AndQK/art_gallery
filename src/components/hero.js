@@ -1,4 +1,5 @@
 import "./hero.css";
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -14,9 +15,9 @@ function Hero() {
           cutting-edge AI algorithms, pushing the boundaries of imagination and
           innovation.
         </p>
-        <a href="#gallery" className="btn">
+        <Link to="/gallery" className="btn">
           Explore Gallery
-        </a>
+        </Link>
       </div>
       <div className="hero-art">
         <img
