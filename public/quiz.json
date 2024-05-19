@@ -1,0 +1,102 @@
+[
+  {
+    "url": "https://www.europeana.eu/item/90402/SK_A_1522",
+    "title": "Still Life with Flowers in a Wan-li Vase",
+    "artist": "",
+    "year": "1619",
+    "src": "./quiz_images/Europeana.eu-90402_flowers.jpeg",
+    "srcAi": "./quiz_images/fotor-ai_Europeana_flowers.jpg",
+    "whereIsAi": "left",
+    "correctAnswer": "rigth"
+  },
+  {
+    "url": "https://www.metmuseum.org/art/collection/search/435704",
+    "title": "A Limier Briquet Hound",
+    "artist": "Rosa Bonheur",
+    "year": "1856",
+    "src": "./quiz_images/DP123961_Dog.png",
+    "srcAi": "./quiz_images/fotor-ai-Dog.png",
+    "whereIsAi": "right",
+    "correctAnswer": "left"
+  },
+  {
+    "url": "https://www.metmuseum.org/art/collection/search/436535",
+    "title": "Wheat Field with Cypresses",
+    "artist": "Vincent van Gogh",
+    "year": "1889",
+    "src": "./quiz_images/van-gogh.png",
+    "srcAi": "./quiz_images/van-gogh-ai-art.png",
+    "whereIsAi": "left",
+    "correctAnswer": "rigth"
+  },
+  {
+    "url": "https://artmuseum.princeton.edu/collections/objects/31852",
+    "title": "Water Lilies and Japanese Bridge",
+    "artist": "Claude Monet",
+    "year": "1899",
+    "src": "./quiz_images/Claude-Monet-Waterlillies-and-Japanese-Bridge-1899_HIGH-RES.png",
+    "srcAi": "./quiz_images/ai-generated-monet-painting.png",
+    "whereIsAi": "left",
+    "correctAnswer": "rigth"
+  },
+  {
+    "url": "https://www.flickr.com/photos/kebpix/23936923029",
+    "title": "Number 17A",
+    "artist": "Jackson Pollock",
+    "year": "1948",
+    "src": "./quiz_images/jackson_pollock_number17a.png",
+    "srcAi": "./quiz_images/ai-jackson-pollock-.png",
+    "whereIsAi": "rigth",
+    "correctAnswer": "left"
+  },
+  {
+    "url": "https://www.metmuseum.org/art/collection/search/437973",
+    "title": "Ponte San Rocco and Waterfalls, Tivoli",
+    "artist": "François Marius Granet",
+    "year": "1810-20",
+    "src": "./quiz_images/Granet.jpg",
+    "srcAi": "./quiz_images/Granet_ai.jpg",
+    "whereIsAi": "rigth",
+    "correctAnswer": "left"
+  },
+  {
+    "url": "https://www.metmuseum.org/art/collection/search/435872",
+    "title": "The Gulf of Marseilles Seen from L'Estaque",
+    "artist": "Paul Cézanne",
+    "year": "1885",
+    "src": "./quiz_images/cezanne.jpg",
+    "srcAi": "./quiz_images/fotor-ai-cezanne.jpg",
+    "whereIsAi": "rigth",
+    "correctAnswer": "left"
+  },
+  {
+    "url": "https://www.foundmyself.com/Chris+Quinlan/art/light-the-city/178552",
+    "title": "Light The City",
+    "artist": "Chris Quinlan",
+    "year": "2017",
+    "src": "./quiz_images/Chris_Quinlan.jpg",
+    "srcAi": "./quiz_images/chris_quinlan_ai.webp",
+    "whereIsAi": "left",
+    "correctAnswer": "rigth"
+  },
+  {
+    "url": "https://www.foundmyself.com/yougallery/art/colorful-sky-1068/231174",
+    "title": "Colorful sky 1068",
+    "artist": "yougallery",
+    "year": "2022",
+    "src": "./quiz_images/yougallery.webp",
+    "srcAi": "./quiz_images/yougallery_ai.webp",
+    "whereIsAi": "left",
+    "correctAnswer": "rigth"
+  },
+  {
+    "url": "https://www.foundmyself.com/rosefemina/art/blue-castle/202276",
+    "title": "Blue Castle",
+    "artist": "rosefemina",
+    "year": "2019",
+    "src": "./quiz_images/rosefemina.webp",
+    "srcAi": "./quiz_images/rosefemina_ai.webp",
+    "whereIsAi": "left",
+    "correctAnswer": "rigth"
+  }
+]
