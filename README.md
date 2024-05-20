@@ -1,3 +1,10 @@
+# Nimi
+Antonio Skondras 763787
+# Linkki nettisivuille
+https://art-gallery-green.vercel.app/
+# Tunnit
+noin 40 tuntia
+#
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

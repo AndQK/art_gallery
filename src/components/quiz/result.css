@@ -5,7 +5,7 @@
 }
 /* Table style */
 table {
-  border-spacing: 1;
+  border-spacing: 1px;
   border-collapse: collapse;
   background: white;
   border-radius: 6px;
