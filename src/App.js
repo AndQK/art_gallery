@@ -5,6 +5,7 @@ import Gallery from "./pages/gallery";
 import Quiz from "./pages/quiz";
 import NotFound from "./pages/notfound";
 import { Routes, Route } from "react-router-dom";
+import Footer from "./components/footer/footer";
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
         <Route path="/quiz" element={<Quiz />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

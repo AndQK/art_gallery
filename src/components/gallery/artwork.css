@@ -47,7 +47,7 @@
   text-decoration: underline;
 }
 
-/* Add a breakpoint for screens with a width under 740px */
+/* Add a breakpoint for screens with a width under 700px */
 @media screen and (max-width: 700px) {
   .artwork-item {
     flex-direction: column;
