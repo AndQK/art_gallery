@@ -64,8 +64,8 @@
     "title": "The Gulf of Marseilles Seen from L'Estaque",
     "artist": "Paul Cézanne",
     "year": "1885",
-    "src": "./quiz_images/cezanne.jpg",
-    "srcAi": "./quiz_images/fotor-ai-cezanne.jpg",
+    "src": "./quiz_images/cezanne.png",
+    "srcAi": "./quiz_images/fotor-ai-cezanne.png",
     "whereIsAi": "rigth",
     "correctAnswer": "left"
   },
@@ -74,8 +74,8 @@
     "title": "Light The City",
     "artist": "Chris Quinlan",
     "year": "2017",
-    "src": "./quiz_images/Chris_Quinlan.jpg",
-    "srcAi": "./quiz_images/chris_quinlan_ai.webp",
+    "src": "./quiz_images/Chris_Quinlan.png",
+    "srcAi": "./quiz_images/chris_quinlan_ai.png",
     "whereIsAi": "left",
     "correctAnswer": "rigth"
   },
