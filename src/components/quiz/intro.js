@@ -9,10 +9,8 @@ function Intro({ totalQuestions, startQuiz }) {
         artwork.
       </p>
       <ul>
-        <li>You have 30 seconds to answer each question.</li>
         <li>
-          Choose whether the artwork is made by AI, a human, or both are made by
-          AI.
+          Choose which artwork is made by a human.
         </li>
         <li>There are a total of {totalQuestions} questions.</li>
       </ul>

@@ -16,8 +16,9 @@
 }
 
 .intro p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-bottom: 2rem;
+  padding: 2px;
   color: #666;
 }
 
@@ -25,11 +26,29 @@
   list-style: none;
   padding: 0;
   color: #666;
-  font-size: 1.0rem;
+  font-size: 1.2rem;
   margin-bottom: 2rem;
 }
 
 .intro li {
   font-size: 1em;
   margin: 5px 0;
+}
+
+@media screen and (max-width: 470px) {
+  .intro h1 {
+    font-size: 2rem;
+  }
+  .intro p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    padding: 2px;
+  }
+
+  .intro ul {
+    list-style: none;
+    padding: 2px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
 }

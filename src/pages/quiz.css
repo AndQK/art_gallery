@@ -2,6 +2,7 @@
   text-align: center;
   padding: 20px;
   margin-top: 10px;
+  height: 100vh;
 }
 
 .question {
@@ -13,10 +14,37 @@
 
 .images {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
   max-width: 800px;
   margin-bottom: 20px;
   gap: 20px;
   flex-wrap: wrap;
+}
+
+/* Add a breakpoint for screens with a width under 700px */
+@media screen and (max-width: 700px) {
+  .images {
+    flex-direction: column;
+    width: 80%;
+    padding: 0;
+    margin-bottom: 5px;
+  }
+  .quiz {
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    height: 100%;
+  }
+  .images img {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .quiz h1 {
+    font-size: 1.5rem;
+  }
+  .quiz {
+    margin-top: 20px;
+  }
 }
