@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import "./quiz.css";
 import LazyImage from "../components/quiz/lazyimage";
 import Intro from "../components/quiz/intro";
-import Options from "../components/quiz/options";
 import Result from "../components/quiz/result";
 
 const TOTAL_QUESTIONS = 10;
@@ -75,18 +74,36 @@ function Quiz() {
   return (
     <div className="quiz">
       <h1>Which one was made by a human?</h1>
+      <p>Click the image you think is made by a human.</p>
       <div className="question">
         <div className="images">
-          <LazyImage
-            src={currentData.src}
-            alt={`Question ${currentQuestion + 1} - Image 1`}
-          />
-          <LazyImage
-            src={currentData.srcAi}
-            alt={`Question ${currentQuestion + 1} - Image 2`}
-          />
+          {currentData.putOriginal == "left" ? (
+            <LazyImage
+              onClick={() => handleAnswer("left")}
+              src={currentData.src}
+              alt={`Question ${currentQuestion + 1} - Image 1`}
+            />
+          ) : (
+            <LazyImage
+              onClick={() => handleAnswer("left")}
+              src={currentData.srcAi}
+              alt={`Question ${currentQuestion + 1} - Image 1`}
+            />
+          )}
+          {currentData.putOriginal == "left" ? (
+            <LazyImage
+              onClick={() => handleAnswer("right")}
+              src={currentData.srcAi}
+              alt={`Question ${currentQuestion + 1} - Image 2`}
+            />
+          ) : (
+            <LazyImage
+              onClick={() => handleAnswer("right")}
+              src={currentData.src}
+              alt={`Question ${currentQuestion + 1} - Image 2`}
+            />
+          )}
         </div>
-        <Options handleAnswer={handleAnswer} />
       </div>
     </div>
   );

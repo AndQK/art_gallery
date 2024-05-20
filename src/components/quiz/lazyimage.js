@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import "./lazyimage.css"
-const LazyImage = ({ src, alt }) => {
+const LazyImage = ({ src, alt, onClick }) => {
   const [isVisible, setIsVisible] = useState(false);
   const imgRef = useRef();
 
@@ -21,6 +21,7 @@ const LazyImage = ({ src, alt }) => {
 
   return (
     <img
+      onClick={onClick}
       ref={imgRef}
       src={isVisible ? src : ""}
       alt={alt}

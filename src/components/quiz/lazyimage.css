@@ -6,4 +6,9 @@
   display: block;
   margin: 10px auto;
   box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+.quiz-image:hover {
+  transform: scale(1.05);
 }

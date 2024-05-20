@@ -6,8 +6,8 @@
     "year": "1619",
     "src": "./quiz_images/Europeana.eu-90402_flowers.jpeg",
     "srcAi": "./quiz_images/fotor-ai_Europeana_flowers.jpg",
-    "whereIsAi": "left",
-    "correctAnswer": "rigth"
+    "correctAnswer": "right",
+    "putOriginal": "right"
   },
   {
     "url": "https://www.metmuseum.org/art/collection/search/435704",
@@ -16,8 +16,8 @@
     "year": "1856",
     "src": "./quiz_images/DP123961_Dog.png",
     "srcAi": "./quiz_images/fotor-ai-Dog.png",
-    "whereIsAi": "right",
-    "correctAnswer": "left"
+    "correctAnswer": "left",
+    "putOriginal": "left"
   },
   {
     "url": "https://www.metmuseum.org/art/collection/search/436535",
@@ -26,8 +26,8 @@
     "year": "1889",
     "src": "./quiz_images/van-gogh.png",
     "srcAi": "./quiz_images/van-gogh-ai-art.png",
-    "whereIsAi": "left",
-    "correctAnswer": "rigth"
+    "correctAnswer": "left",
+    "putOriginal": "left"
   },
   {
     "url": "https://artmuseum.princeton.edu/collections/objects/31852",
@@ -36,8 +36,8 @@
     "year": "1899",
     "src": "./quiz_images/Claude-Monet-Waterlillies-and-Japanese-Bridge-1899_HIGH-RES.png",
     "srcAi": "./quiz_images/ai-generated-monet-painting.png",
-    "whereIsAi": "left",
-    "correctAnswer": "rigth"
+    "correctAnswer": "right",
+    "putOriginal": "right"
   },
   {
     "url": "https://www.flickr.com/photos/kebpix/23936923029",
@@ -46,8 +46,8 @@
     "year": "1948",
     "src": "./quiz_images/jackson_pollock_number17a.png",
     "srcAi": "./quiz_images/ai-jackson-pollock-.png",
-    "whereIsAi": "rigth",
-    "correctAnswer": "left"
+    "correctAnswer": "right",
+    "putOriginal": "right"
   },
   {
     "url": "https://www.metmuseum.org/art/collection/search/437973",
@@ -56,8 +56,8 @@
     "year": "1810-20",
     "src": "./quiz_images/Granet.jpg",
     "srcAi": "./quiz_images/Granet_ai.jpg",
-    "whereIsAi": "rigth",
-    "correctAnswer": "left"
+    "correctAnswer": "right",
+    "putOriginal": "right"
   },
   {
     "url": "https://www.metmuseum.org/art/collection/search/435872",
@@ -66,8 +66,8 @@
     "year": "1885",
     "src": "./quiz_images/cezanne.png",
     "srcAi": "./quiz_images/fotor-ai-cezanne.png",
-    "whereIsAi": "rigth",
-    "correctAnswer": "left"
+    "correctAnswer": "left",
+    "putOriginal": "left"
   },
   {
     "url": "https://www.foundmyself.com/Chris+Quinlan/art/light-the-city/178552",
@@ -76,8 +76,8 @@
     "year": "2017",
     "src": "./quiz_images/Chris_Quinlan.png",
     "srcAi": "./quiz_images/chris_quinlan_ai.png",
-    "whereIsAi": "left",
-    "correctAnswer": "rigth"
+    "correctAnswer": "left",
+    "putOriginal": "left"
   },
   {
     "url": "https://www.foundmyself.com/yougallery/art/colorful-sky-1068/231174",
@@ -86,8 +86,8 @@
     "year": "2022",
     "src": "./quiz_images/yougallery.webp",
     "srcAi": "./quiz_images/yougallery_ai.webp",
-    "whereIsAi": "left",
-    "correctAnswer": "rigth"
+    "correctAnswer": "left",
+    "putOriginal": "left"
   },
   {
     "url": "https://www.foundmyself.com/rosefemina/art/blue-castle/202276",
@@ -96,7 +96,7 @@
     "year": "2019",
     "src": "./quiz_images/rosefemina.webp",
     "srcAi": "./quiz_images/rosefemina_ai.webp",
-    "whereIsAi": "left",
-    "correctAnswer": "rigth"
+    "correctAnswer": "left",
+    "putOriginal": "left"
   }
 ]
