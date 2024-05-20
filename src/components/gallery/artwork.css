@@ -46,3 +46,29 @@
 .artwork-details a:hover {
   text-decoration: underline;
 }
+
+/* Add a breakpoint for screens with a width under 740px */
+@media screen and (max-width: 700px) {
+  .artwork-item {
+    flex-direction: column;
+    width: 90%;
+    align-items: flex-start;
+  }
+
+  .artwork-item img {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+
+  .artwork-item .artwork-details {
+    width: 100%;
+    padding: 0;
+  }
+  .artwork-item.left {
+    flex-direction: column;
+  }
+
+  .artwork-item.right {
+    flex-direction: column;
+  }
+}
