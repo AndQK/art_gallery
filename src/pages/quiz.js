@@ -77,7 +77,7 @@ function Quiz() {
       <p>Click the image you think is made by a human.</p>
       <div className="question">
         <div className="images">
-          {currentData.putOriginal == "left" ? (
+          {currentData.putOriginal === "left" ? (
             <LazyImage
               onClick={() => handleAnswer("left")}
               src={currentData.src}
@@ -90,7 +90,7 @@ function Quiz() {
               alt={`Question ${currentQuestion + 1} - Image 1`}
             />
           )}
-          {currentData.putOriginal == "left" ? (
+          {currentData.putOriginal === "left" ? (
             <LazyImage
               onClick={() => handleAnswer("right")}
               src={currentData.srcAi}
