@@ -2,8 +2,8 @@
   display: inline-block;
   border: none;
   padding: 10px 20px;
-  background-color: #ff4500;
-  color: #fff;
+  background-color: #40e0d0;
+  color: #333;
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
@@ -13,5 +13,5 @@
 }
 
 .custom-btn:hover {
-  background-color: #e34234;
+  background-color: #21cab9;
 }

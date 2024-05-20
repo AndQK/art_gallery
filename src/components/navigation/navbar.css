@@ -43,7 +43,7 @@ nav ul li:hover {
 /*Add hover effect for better user experience */
 .nav-link:hover {
   text-decoration: underline; /* Add underline on hover */
-  color: #ff4500;
+  color: #21cab9;
 }
 
 /* Part of the nav*/
@@ -54,7 +54,7 @@ nav ul li:hover {
   margin-left: 10px;
 }
 .name-part {
-  color: #ff4500;
+  color: #40e0d0;
 }
 .name:hover {
   filter: hue-rotate(45deg);
@@ -72,7 +72,7 @@ nav ul li:hover {
   color: #ffffff;
 }
 .links-mobile:hover {
-  color: #ff4500;
+  color: #21cab9;
 }
 
 @media screen and (min-width: 681px) {
@@ -107,7 +107,7 @@ nav ul li:hover {
   top: 100%;
   left: 0;
   background-color: #333;
-  border-top: 2px solid #ff4500;
+  border-top: 2px solid #40e0d0;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   width: 100%;
   box-sizing: border-box;
