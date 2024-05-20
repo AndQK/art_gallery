@@ -1,6 +1,7 @@
 .result {
   padding: 20px;
   margin-top: 10px;
+  height: 100vh;
 }
 /* Table style */
 table {
@@ -61,6 +62,9 @@ td.r {
 
 /* Responsive table style for extra small screens */
 @media screen and (max-width: 35.5em) {
+  .result {
+    height: 100%;
+  }
   table {
     display: block;
   }
@@ -123,7 +127,7 @@ tbody a {
   text-align: center;
   display: inline-block;
   padding: 5px 5px;
-  background-color: #40E0D0;
+  background-color: #40e0d0;
   color: #333;
   text-decoration: none;
   border-radius: 5px;
@@ -131,5 +135,5 @@ tbody a {
 }
 
 tbody a:hover {
-  background-color: #21CAB9;
+  background-color: #21cab9;
 }

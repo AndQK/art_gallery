@@ -10,8 +10,8 @@
 .spinner {
   width: 100px;
   height: 100px;
-  border-top: 4px solid #ff4500;
-  border-bottom: 4px solid #ff4500;
+  border-top: 4px solid #40e0d0;
+  border-bottom: 4px solid #40e0d0;
   border-top-color: transparent;
   border-radius: 50%;
   animation: spin 1s linear infinite;
@@ -25,7 +25,7 @@
 
 .not-found-container h1 {
   font-size: 3rem;
-  color: #ff4500;
+  color: #333;
 }
 
 .not-found-container p {
