@@ -1,6 +1,6 @@
 # Nimi
 
-Antonio Skondras 763787
+Antonio Skondras
 
 # Linkki nettisivuille
 
